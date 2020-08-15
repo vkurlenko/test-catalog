@@ -1,0 +1,35 @@
+.container {
+    margin: 20px auto;
+}
+
+li {
+    list-style: none;
+}
+
+li span.toggled {
+    cursor: pointer;
+    font-weight: bold;
+}
+
+ul:not(.root) {
+    display: none;
+}
+
+a.in-cart {
+    /*color: red;*/
+}
+
+.navbar {
+    display: block;
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+.form-inline {
+    display: inline;
+}
+
+.item {
+    display: inline-block;
+    float: right;
+}
